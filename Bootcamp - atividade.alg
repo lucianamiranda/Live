@@ -9,13 +9,13 @@ opcao:literal
 inicio
 
 repita
-   escreval("Digite 1 para converter quilometros em metros")
-   escreval("Digite 2 para converter litros em metros cúbicos")
+   escreval("Digite 1 para converter litros em metros cúbicos")
+   escreval("Digite 2 para converter quilometros em metros")
    escreval("Digite 3 para sair")
    escreval("")
    leia(opcao)
 
-   se opcao = "1" entao
+   se opcao = "2" entao
       escreval("Digite valor em quilometro parar ser convertido em metro")
       leia (quilometro)
 
@@ -25,7 +25,7 @@ repita
       escreval("")
 
    senao
-      se opcao = "2" entao
+      se opcao = "1" entao
          escreval("Digite valor em litros para ser convertido em metros cúbicos:")
          leia(litro)
 
@@ -40,4 +40,3 @@ repita
 
 
 fimalgoritmo
-
